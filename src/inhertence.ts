@@ -39,20 +39,28 @@ this.pin=pass
 }
 
 
-// class Student extends personalDetails{
+class Student extends personalDetails{
+
+private fees:number
+constructor( name:string,age:number,pin:number,balance:number,fees:number){
+
+super (name,age,balance,pin,)
+this.fees=fees;
+
+}
+
+}
+const finalDisplay=new Student('Durjoy',24,1224,23343,2333333);
+
+console.log(finalDisplay);
+
+// const disPlay=new personalDetails ('AmioDas',23,1213,454545);
 
 
-// }
-// const finalDisplay=new Student('Durjoy',24,1224,23343);
+// disPlay.Age=54
 
-// console.log(finalDisplay);
+// // disPlay.Pin=324
 
-const disPlay=new personalDetails ('AmioDas',23,1213,454545);
-
-
-disPlay.Age=54
-
-disPlay.Pin=324
-
-console.log(disPlay);
+// console.log(disPlay);
+// // finalDisplay.Age=34
 
